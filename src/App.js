@@ -1,11 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import Home from "./components/home/home"
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
+
+
+    
     <div className="App">
-      <header className="App-header">
+      <Navbar />
+      <h1>Hello this is not working</h1>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -16,9 +23,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
-      </header>
+          Learn React */}
+        {/* </a>
+      </header> */}
     </div>
   );
 }
