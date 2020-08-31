@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url('/assets/fitness.jpg')`,
+        backgroundImage: ``,
         backgroundSize: "cover",
         overflow: "scroll",
         height: "100vh",
