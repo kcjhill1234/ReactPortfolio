@@ -29,7 +29,6 @@ function App() {
             <About />
           </Route>
         </Switch>
-        <About />
       </div>
     </div>
   );
