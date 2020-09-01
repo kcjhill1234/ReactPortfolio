@@ -4,7 +4,7 @@ import { Card, Image } from "semantic-ui-react";
 const CardExampleCard = () => (
   <Card.Group>
     <Card>
-      <Image src="/password Gen screen shot.jpeg" wrapped ui={true} />
+      <Image src="/assets/images/password Gen screen shot.jpeg" wrapped ui={true} />
       <Card.Content>
         <Card.Header>Password Generator</Card.Header>
         <Card.Meta>
@@ -18,16 +18,16 @@ const CardExampleCard = () => (
     </Card>
 
     <Card>
-      <Image src="/code game screen shot.png"/>
+      <Image src="/assets/images//code game screen shot.png"/>
       <Card.Content>
-        <Card.Header content="Code Game" />
+        <Card.Header content="Code Game Quiz" />
         <Card.Meta content="May 9, 2020" />
         <Card.Description content="This is a multiple code game that uses JavaScript" />
         </Card.Content>
         <Card.Content extra>University of Utah coding BootCamp</Card.Content>
     </Card>
     <Card>
-      <Image src="/music discovery screen shot.png"/>
+      <Image src="/assets/images//music discovery screen shot.png"/>
       <Card.Content>
         <Card.Header content="Music Discovery Project" />
         <Card.Meta content="April 14, 2020" />
@@ -36,7 +36,7 @@ const CardExampleCard = () => (
         <Card.Content extra>University of Utah coding BootCamp</Card.Content>
     </Card>
     <Card>
-      <Image src="/burgerlogger.png"/>
+      <Image src="/assets/images//burgerlogger.png"/>
       <Card.Content>
         <Card.Header content="Burger Logger" />
         <Card.Meta content="August 19, 2020 " />
@@ -45,16 +45,16 @@ const CardExampleCard = () => (
         <Card.Content extra>University of Utah coding BootCamp</Card.Content>
     </Card>
     <Card>
-      <Image src="/boss.png"/>
+      <Image src="/assets/images//boss.png"/>
       <Card.Content>
-        <Card.Header content="Home Kitchen Boss" />
+        <Card.Header content="Home Kitchen Boss Project" />
         <Card.Meta content="June 17, 2020" />
         <Card.Description content=" Second Group Project: This app helps finds recipes with by type, culture, and food restrictions" />
         </Card.Content>
         <Card.Content extra>University of Utah coding BootCamp</Card.Content>
     </Card>
     <Card>
-      <Image src="/fit 1.png"/>
+      <Image src="/assets/images//fit 1.png"/>
       <Card.Content>
         <Card.Header content="Workout Tracker" />
         <Card.Meta content="August 25, 2020" />
@@ -63,16 +63,16 @@ const CardExampleCard = () => (
         <Card.Content extra>University of Utah coding BootCamp</Card.Content>
     </Card>
     <Card>
-      <Image src="/BEST3.png"/>
+      <Image src="/assets/images//BEST3.png"/>
       <Card.Content>
-        <Card.Header content="Best Workout App Ever!" />
+        <Card.Header content="Best Workout App Ever! Project" />
         <Card.Meta content="August 12, 2020" />
         <Card.Description content="Group Project 3: React app that lists and creates workouts for the user" />
         </Card.Content>
         <Card.Content extra>University of Utah coding BootCamp</Card.Content>
     </Card>
     <Card>
-      <Image src="/budget.png"/>
+      <Image src="/assets/images//budget.png"/>
       <Card.Content>
         <Card.Header content="Transaction Tracker" />
         <Card.Meta content="August 26, 2020" />

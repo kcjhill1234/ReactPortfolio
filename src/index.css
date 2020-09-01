@@ -12,7 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.app {
+.page {
   display: flex;
   margin-top: 75px;
   justify-content: center;
@@ -29,4 +29,7 @@ code {
   .App{
     margin-top: 275px;
   }
+}
+.header {
+  text-decoration-color: blue;
 }

@@ -7,7 +7,3 @@ const ImageExampleCircular = () => (
 )
 
 export default ImageExampleCircular
-
-
-
-
