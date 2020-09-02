@@ -15,21 +15,20 @@ code {
 .page {
   display: flex;
   margin-top: 75px;
+  margin-bottom: 50px;
   justify-content: center;
 }
-.segment.about, .segment.profile, .segment.contact {
-  width: 900px;
+
+.center{
+  display: 'flex';
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.segment.about, .segment.projects, .segment.contact {
+  width: 950px;
 }
 .segment{
-  max-width: 900px;
+  max-width: 950px;
 }
 
-
-@media only screen and (max-width: 767px) {
-  .App{
-    margin-top: 275px;
-  }
-}
-.header {
-  text-decoration-color: blue;
-}
