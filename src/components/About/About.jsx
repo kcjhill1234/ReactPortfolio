@@ -7,9 +7,9 @@ class About extends React.Component {
     this.interval = null;
     this.quotes = [
       '"Never do tomorrow what you can do today. Procrastination is the thief of time." – Charles Dickens',
-      "“There are far, far better things ahead than any we leave behind.”– CS Lewis",
+      '“There are far, far better things ahead than any we leave behind.”– CS Lewis',
     ];
-    this.state = { quote: "" };
+    this.state = { quote: this.quotes[0]};
   }
   componentDidMount = () => {
     this.interval = setInterval(() => {
@@ -26,16 +26,16 @@ class About extends React.Component {
   render() {
     return (
       <Segment className="about">
+                <Header as="h2">Kenyatta Hill</Header>
         <div>
           <PImage />
         </div>
-        <div>
+        <div style={{marginTop: "15px"}}>
           <h2>Inspiration</h2>
           <p>{this.state.quote}</p>
         </div>
-        <div>
-          <h1>About Me</h1>
-          <Header as="h2">Kenyatta Hill</Header>
+        <div style={{marginTop: "15px"}}>
+          <h3>About Me</h3>
           <p>
             Hello, my name Kenyatta Hill. I currently reside in Utah, although I
             was born and raised in Tucson, AZ. In my previous profession, I
@@ -46,7 +46,6 @@ class About extends React.Component {
             of the associates I affected. In addition I thrived on inspiring and
             helping others to grow into their dreams.
           </p>
-          <br />
           <p>
             My new main goal is to start a new long lasting career in IT,
             Programing, and/or Cyber Security and to get there I am currently
@@ -58,7 +57,7 @@ class About extends React.Component {
             Curacao.
           </p>
         </div>
-        <br />
+        
       </Segment>
     );
   }
