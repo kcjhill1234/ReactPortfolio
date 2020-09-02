@@ -4,9 +4,9 @@ export default function Contact() {
   return (
     <Segment className="contact">
       <h1>Contact Page</h1>
-      <Form success>
+      <Form>
         <Form.Input label="Email" placeholder="email@email.com" />
-        <Message success="" header="" content="" />
+        <Message header="" content="" />
         <Button>Submit</Button>
       </Form>
     </Segment>
