@@ -8,6 +8,10 @@ class About extends React.Component {
     this.quotes = [
       '"Never do tomorrow what you can do today. Procrastination is the thief of time." – Charles Dickens',
       '“There are far, far better things ahead than any we leave behind.”– CS Lewis',
+      '“Our lives begin to end the day we become silent about things that matter.” – Martin Luther King Jr.',
+      '"Strive not to be a success, but rather to be of value." –Albert Einstein',
+      '"Life is 10% what happens to me and 90% of how I react to it." –Charles Swindoll',
+      '"Your time is limited, so don’t waste it living someone elses life." – Steve Jobs'
     ];
     this.state = { quote: this.quotes[0]};
   }
