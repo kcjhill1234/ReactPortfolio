@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <Menu stackable fixed="top">
+    <Menu stackable inverted color="black" fixed="top">
       <Menu.Item header className="profileName">
         Kenyatta Hill: Portfolio
       </Menu.Item>
