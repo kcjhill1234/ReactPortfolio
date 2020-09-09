@@ -16,3 +16,7 @@ This is my Portfolio
 
 Kenyatta
 
+## Deployed link
+
+[Heroku link](https://kcjhill1234.github.io/ReactPortfolio/#/)
+
